@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #CD5C5C;
+    display: flex;
+}
+
+.menu-left,
+.menu-right {
+    width: 50%;
+    padding: 1vw;
+}
+
+.menu-left label,
+.menu-right label {
+    padding: 0.4vw 1.3vw;
+    margin-top: 4px;
+    display: inline-block;
+    background-color: #40E0D0;
+    color: blue;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.left {
+    background-color: #CCCCFF;
+    width: 25%;
+    margin: 30px;
+    display:inline-block;
+    padding: 2vw 2vw;
+    z-index:3;
+    position:relative;
+    top:-30px;
+}
+.right{
+	display:inline-block;
+	background-color: #CCCCFF;
+    width: 60%;
+    padding: 2vw 2vw;
+    position: relative;
+	height: 34.7vw;
+	top:54px;
+}
+
+.content{
+	font-size:25px;
+	height:200px;
+	width:100%;
+	position:absolute;
+}
+
+.left ul {
+    display: block;
+    /* background-color: red; */
+    padding: 1vw;
+    list-style: none;
+}
+
+.left ul li a {
+    display: block;
+    background-color: #2874A6;
+    text-decoration: none;
+    padding: .5vw 1vw;
+    margin-bottom: .5vw;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.login-panel {
+    background-color: #999999;
+    display: block;
+}
+
+.ta {
+    background-color: hotpink;
+    position: relative;
+    top: 15vw;
+    left: 60vw;
+    padding: 2vw;
+    z-index: 1;
+    font-size: 1.5vw;
+}
+
+.tad {
+    width: 8vw;
+    padding-top: 15px;
+}
+
+.td-top {
+    background-color: aqua;
+    padding: 10px;
+}
+
+td input {
+    width: 16vw;
+    font-size: 1.6vw;
+}
+
+.bank-pic {
+    background-image: url("../images/bank2.webp");
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.btn {
+    font-size: 1.4vw;
+	padding: 2px 22px;
+	margin-top: 15px;
+}
+.la{
+	font-size:20px;
+}
+.tb{
+	width: 16vw;
+	font-size: 1.4vw;
+}
